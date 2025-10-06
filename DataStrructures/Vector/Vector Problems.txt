@@ -1,0 +1,178 @@
+# 100 Vector Problems (Easy to Hard)
+
+1. Initialize a vector and print elements.
+2. Insert an element at the end.
+3. Insert an element at a specific position.
+4. Delete an element from the end.
+5. Delete an element from a specific position.
+6. Find the size and capacity of a vector.
+7. Resize a vector.
+8. Clear a vector.
+9. Check if a vector is empty.
+10. Access elements using at(), front(), back().
+11. Reverse a vector.
+12. Sort a vector.
+13. Find the maximum element.
+14. Find the minimum element.
+15. Find the sum of elements.
+16. Find the average of elements.
+17. Count even and odd numbers.
+18. Remove duplicates from a sorted vector.
+19. Remove duplicates from an unsorted vector.
+20. Find the frequency of each element.
+21. Find the element that appears once.
+22. Find the missing number in a range.
+23. Find the repeating number.
+24. Find the intersection of two vectors.
+25. Find the union of two vectors.
+26. Left rotate a vector by one.
+27. Left rotate a vector by d places.
+28. Right rotate a vector by one.
+29. Right rotate a vector by d places.
+30. Find the leader elements.
+31. Find the majority element.
+32. Find the subvector with given sum.
+33. Find the longest subvector with sum zero.
+34. Find the longest subvector with equal number of 0s and 1s.
+35. Find the maximum sum subvector.
+36. Find the minimum sum subvector.
+37. Find the maximum product subvector.
+38. Find the minimum product subvector.
+39. Find the equilibrium index.
+40. Find the prefix sum vector.
+41. Find the suffix sum vector.
+42. Find the pair with given sum.
+43. Find all pairs with given sum.
+44. Find triplets with given sum.
+45. Find quadruplets with given sum.
+46. Find the longest increasing subvector.
+47. Find the longest decreasing subvector.
+48. Find the longest consecutive sequence.
+49. Find the first repeating element.
+50. Find the first non-repeating element.
+51. Find the kth smallest element.
+52. Find the kth largest element.
+53. Sort a vector of 0s, 1s, and 2s.
+54. Find the median of a vector.
+55. Find the mode of a vector.
+56. Find the minimum number of swaps to sort the vector.
+57. Find the minimum number of reversals to sort the vector.
+58. Find the minimum jumps to reach the end.
+59. Find the maximum circular subvector sum.
+60. Find the maximum difference with order.
+61. Find the maximum sum of non-adjacent elements.
+62. Find the maximum sum of k consecutive elements.
+63. Find the maximum sum of subvector of size k.
+64. Find the minimum sum of subvector of size k.
+65. Find the subvector with maximum average.
+66. Find the subvector with minimum average.
+67. Find the subvector with maximum product.
+68. Find the subvector with minimum product.
+69. Find the subvector with maximum XOR.
+70. Find the subvector with minimum XOR.
+71. Find the subvector with maximum GCD.
+72. Find the subvector with minimum GCD.
+73. Find the subvector with maximum LCM.
+74. Find the subvector with minimum LCM.
+75. Find the subvector with maximum sum divisible by k.
+76. Find the subvector with minimum sum divisible by k.
+77. Find the subvector with maximum product divisible by k.
+78. Find the subvector with minimum product divisible by k.
+79. Find the subvector with maximum length divisible by k.
+80. Find the subvector with minimum length divisible by k.
+81. Find the subvector with maximum sum of squares.
+82. Find the subvector with minimum sum of squares.
+83. Find the subvector with maximum sum of cubes.
+84. Find the subvector with minimum sum of cubes.
+85. Find the subvector with maximum sum of fourth powers.
+86. Find the subvector with minimum sum of fourth powers.
+87. Find the subvector with maximum sum of fifth powers.
+88. Find the subvector with minimum sum of fifth powers.
+89. Find the subvector with maximum sum of sixth powers.
+90. Find the subvector with minimum sum of sixth powers.
+91. Find the subvector with maximum sum of seventh powers.
+92. Find the subvector with minimum sum of seventh powers.
+93. Find the subvector with maximum sum of eighth powers.
+94. Find the subvector with minimum sum of eighth powers.
+95. Find the subvector with maximum sum of ninth powers.
+96. Find the subvector with minimum sum of ninth powers.
+97. Find the subvector with maximum sum of tenth powers.
+98. Find the subvector with minimum sum of tenth powers.
+99. Find the subvector with maximum sum of eleventh powers.
+100. Find the subvector with minimum sum of eleventh powers.
+
+
+===================================================================================================================# Improvements and Additions to the List of 100 Vector Problems
+
+### 🧠 1. **Vector-Specific STL Operations**
+
+You included initialization, insertion, deletion — but **not iterator or STL algorithm usage**,
+ which is crucial for interviews and performance.
+
+1. Traverse a vector using **iterators**
+2. Use **const_iterator**, **reverse_iterator**
+3. Find an element using **find()**, **binary_search()**, **count()**
+4. Use **accumulate()** to find sum and average
+5. Use **sort()** with custom comparator (e.g. sort by frequency, pair.second, etc.)
+6. Use **unique() + erase()** idiom to remove duplicates
+7. Use **std::transform()** to apply a function to all elements
+8. Merge two sorted vectors using **merge()**
+9. Use **set_union**, **set_intersection**, **set_difference**
+10. Copy elements from one vector to another using **copy()** and **back_inserter()**
+
+### 🔢 2. **Vector of Pairs / Structs / Nested Vectors**
+
+To simulate real-world DSA problems (intervals, graphs, sorting by fields, etc.)
+
+11. Sort a vector of pairs by first element, then second
+12. Sort a vector of pairs by second element descending
+13. Find overlapping intervals (vector of pairs)
+14. Merge overlapping intervals
+15. Insert a new interval into sorted non-overlapping intervals
+16. Rotate elements of a vector of pairs
+17. Reverse a vector of pairs
+18. Sort a vector of structures using lambda
+19. Find K closest points to origin (vector of pairs / priority_queue mix)
+20. Find K frequent elements (frequency + heap + vector combo)
+
+### 🧮 3. **Advanced Searching / Two Pointers / Binary Search**
+
+Your list stops at basic searching; these are core vector patterns:
+
+21. Find first and last occurrence of an element (binary search variant)
+22. Lower bound and upper bound usage
+23. Find peak element (mountain array pattern)
+24. Search in rotated sorted vector
+25. Search insert position (LeetCode #35)
+26. Find the rotation count in rotated sorted vector
+27. Count occurrences of a number using binary search
+
+### 🌊 4. **Sliding Window & Prefix Tricks (Not Fully Covered)**
+
+You have fixed-size subarrays, but not variable-size or hybrid window logic.
+
+28. Longest subvector with at most K distinct elements
+29. Smallest subvector with sum > K
+30. Longest subvector with all distinct elements
+31. Subvector with sum closest to K (prefix sum + binary search)
+32. Minimum swaps to group ≤ K elements together
+
+### 🧩 5. **Vector Applications in Classic DSA**
+
+Vectors are heavily used in graphs, stacks, and matrix-style problems.
+
+33. Represent adjacency list using vector of vectors
+34. Flatten a 2D vector into 1D
+35. Transpose a 2D vector (matrix)
+36. Rotate a 2D vector (90°, 180°, 270°)
+37. Spiral traversal of a 2D vector
+38. Search in a 2D vector (row + column sorted)
+
+### ⚙️ 6. **Performance and Optimization Concepts**
+
+(Shows deeper understanding of how vectors actually work)
+
+39. Difference between **size()** and **capacity()** in dynamic resizing
+40. Demonstrate **capacity doubling** when pushing beyond capacity
+41. Shrink capacity using **shrink_to_fit()**
+42. Reserve memory before pushing elements (**reserve()**)
