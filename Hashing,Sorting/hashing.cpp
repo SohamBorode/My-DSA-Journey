@@ -13,6 +13,7 @@ for(int i :hashArr) cout<<i<<" ";
     return 0;
 }
 
+/*
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -98,4 +99,4 @@ int main() {
     ht.search(15);  // Should be found
     ht.search(8);   // Should not be found
     return 0;
-}
+}*/
