@@ -10,9 +10,9 @@
 8. Count even and odd numbers.
 9. Find the maximum difference between two elements.
 10. Move all zeros to the end.
-11. Remove duplicates from a sorted array.
-12. Remove duplicates from an unsorted array.
-13. Find the frequency of each element.
+11. Find the frequency of each element.
+12. Remove duplicates from an unsorted array. ---------
+13. Remove duplicates from a sorted array.-------------
 14. Find the element that appears once (others appear twice).
 15. Find the missing number in a range.
 16. Find the repeating number.

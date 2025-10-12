@@ -1,8 +1,7 @@
-#include <iostream>
-#include <vector>
+#include<bits/stdc++.h>
 using namespace std;
 const int  maxSiz = 100;
-// Remove duplicates from a sorted array.
+// Find the frequency of each element.
 void removeDup(int arr[], int sz){
     int freqArr[maxSiz]={0};
     for(int i = 0; i<sz ; i++){
@@ -10,7 +9,11 @@ void removeDup(int arr[], int sz){
     }
 
     for(int i: freqArr) cout<<i<<" ";
+
+    cout<<"After removing duplicates: "<<endl;
+
 }
+ 
 int main() {
     int arr[] = {1,2,3,3,4,5,6,6,7,8,9,10};
     int n = sizeof(arr)/sizeof(arr[0]);
