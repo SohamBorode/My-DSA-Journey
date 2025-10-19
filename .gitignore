@@ -16,3 +16,7 @@ Thumbs.db
 
 # Ignore .txt files
 *.txt
+
+# Ignore scripts files
+*.py
+*.md.bak
