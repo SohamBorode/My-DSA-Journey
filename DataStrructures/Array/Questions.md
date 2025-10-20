@@ -22,7 +22,7 @@
 20. [Right rotate an array by one.](./Problems/problem20.cpp)
 21. [Right rotate an array by d places.](./Problems/problem21.cpp)
 22. [Find the leader elements.](Problems/problem22.cpp)
-23. Find the majority element.
+23. [Find the majority element.](Problems/problem23.cpp)
 24. Find the subarray with given sum.
 25. Find the longest subarray with sum zero.
 26. Find the longest subarray with equal number of 0s and 1s.
