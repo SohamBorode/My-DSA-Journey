@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// Move all zeros to the end.
+// Move all zeros to the end. Or any given number
 
 void moveToEnd(int arr[], int n, int target){
     int no_of_target = 0;
@@ -29,7 +29,7 @@ void moveToEnd(int arr[], int n, int target){
 }
 int main()
 {
-    int arr[] = {1, 2,1,1,0,4,5,1,0,2,4,0,1,1,1,3,4,1,0, 2, 0, 1, 0, 2, 0, 1};
+    int arr[] = {1,2,1,3,4,1,5};
     int n = sizeof(arr) / sizeof(arr[0]);
     int target;
     cout<<"Enter which number you want to move to end: ";
