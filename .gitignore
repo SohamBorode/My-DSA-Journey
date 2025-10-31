@@ -20,7 +20,14 @@ Thumbs.db
 
 # Ignore scripts files
 *.py
+<<<<<<< RESOLVED
+# keep generic .bak pattern (covers *.md.bak)
 *.bak
-*.idea/
-*.vscode/
-*.gitignore
+
+# IDE/editor folders
+.idea/
+.vscode/
+
+# Do NOT ignore the .gitignore file itself
+# (we want to track changes to .gitignore in the repo)
+>>>>>>> RESOLVED
