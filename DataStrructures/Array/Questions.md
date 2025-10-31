@@ -15,7 +15,7 @@
 13. [Find the missing number in a range.](./Problems/problem13.cpp)
 14. [Find the repeating number.](./Problems/problem14.cpp)
 15. [Find the intersection of two arrays.](./Problems/problem15.cpp)
-16. [Find the union of two arrays.](./Problems/problem16.cpp)
+16. [Find the union of two sorted arrays.](./Problems/problem16.cpp)
 17. [Remove duplicates from an sorted array.](./Problems/problem17.cpp)
 18. [Left rotate an array by one place.](./Problems/problem18.cpp)
 19. [Left rotate an array by d places.](./Problems/problem19.cpp)
@@ -23,8 +23,8 @@
 21. [Right rotate an array by d places.](./Problems/problem21.cpp)
 22. [Find the leader elements.](Problems/problem22.cpp)
 23. [Find the majority element.](Problems/problem23.cpp)
-24. Find the subarray with given sum.
-25. Find the longest subarray with sum zero.
+24. [Find the subarray with given sum.](Problems/problem24.cpp)
+25. [Find the longest subarray with sum zero.](Problems/problem25.cpp)
 26. Find the longest subarray with equal number of 0s and 1s.
 27. Find the maximum sum subarray (Kadane’s Algorithm).
 28. Find the minimum sum subarray.
@@ -33,8 +33,8 @@
 31. Find the equilibrium index.
 32. Find the prefix sum array.
 33. Find the suffix sum array.
-34. Find the pair with given sum.
-35. Find all pairs with given sum.
+34. [Find the pair with given sum.](Problems/problem34.cpp)
+35. [Find all pairs with given sum.](Problems/problem35.cpp)
 36. Find triplets with given sum.
 37. Find quadruplets with given sum.
 38. Find the longest increasing subarray.
